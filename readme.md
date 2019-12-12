@@ -19,7 +19,7 @@ Each topic lives in a dedicated directory. This *readme* only gives an overview 
 
 ### Advanced Stuff
 
-- How to deal with collections of tasks (`Task.WaitAll()`, `Task.WhenAll()`)
+- Collections of tasks (`Task.WaitAll()`, `Task.WhenAll()`)
 - Asynchronous programming and *LINQ* (`.Select(), .ForEach()`)
 - Cancellation
 - Progress notification
