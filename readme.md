@@ -2,7 +2,9 @@
 
 This Repo holds a collection of documents and presentations targeting different topics a developer faces in his daily work. The topics mainly focus on developing **C#** applications.
 
-Each topic lives in a dedicated directory. This *readme* only gives an overview about the major points of each topic, but does not contain detailed information.
+Each topic lives in a dedicated directory. This *readme* only gives an overview about the structure of each topic, but does not contain detailed information.
+
+Single Topics may also contain source code which is used in the workshop.
 
 1. [Asynchronous Programming](#asynchronous-programming)
    1. [Introduction](#introduction)
