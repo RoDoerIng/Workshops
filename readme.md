@@ -12,7 +12,7 @@ Each topic lives in a dedicated directory. This *readme* only gives an overview 
 
 ## Asynchronous Programming
 
-[**SlideShow**](./AsynchronousProgramming/asynchronous_programming.html)
+[**SlideShow**](https://rodoering.github.io/Workshops/AsynchronousProgramming/asynchronous_programming.html)
 
 ### Introduction
 
