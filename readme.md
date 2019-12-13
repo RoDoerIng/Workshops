@@ -14,7 +14,7 @@ Single Topics may also contain source code which is used in the workshop.
 
 ## Asynchronous Programming
 
-[**SlideShow**](https://rodoering.github.io/Workshops/AsynchronousProgramming/asynchronous_programming.html)
+[**SlideShow**](https://rodoering.github.io/Workshops/AsynchronousProgramming/index.html)
 
 ### Introduction
 
