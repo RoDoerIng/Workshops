@@ -14,13 +14,71 @@ class: center, middle
 ---
 
 name: introduction
+layout: true
 
 # Introduction
 
-- What is synchronous programming?
-- What is asynchronous programming?
+---
+
+## Synchronous programming
+
+- statements are executed one after the other
+- the next statement starts executing after the preceding is finished
+
+--
+
+The following code:
+
+```csharp
+public static void Main(string[] args)
+{
+    var stopWatch = new StopWatch();
+    stopWatch.Start();
+
+    runningAFiveSecondLastingTask();
+
+    stopWatch.Stop();
+    Console.WriteLine($"Execution took {stopWatch.ElapsedMilliseconds} ms");
+}
+```
+
+produces the output:
+
+```sh
+Execution took 5013 ms
+```
 
 ---
+
+## Asynchronous programming
+
+- if a statement is executed asynchronously, the next statement can start immediately without waiting for it to finish
+
+--
+
+The following code:
+
+```csharp
+public static void Main(string[] args)
+{
+    var stopWatch = new StopWatch();
+    stopWatch.Start();
+
+*   runningAFiveSecondLastingTaskAsync();
+
+    stopWatch.Stop();
+    Console.WriteLine($"Execution took {stopWatch.ElapsedMilliseconds} ms");
+}
+```
+
+produces the output:
+
+```sh
+Execution took 13 ms
+```
+
+---
+layout: false
 
 name: basics
 layout: true
@@ -29,7 +87,7 @@ layout: true
 
 ---
 
-### `async/await`
+## `async/await`
 
 - `async`
 - `await`
@@ -38,16 +96,10 @@ layout: true
 
 ### `Task.Run()`
 
-
----
-
-## bas2
-
-<!-- template: basics -->
-
 - `Task.Run()`
 
 ---
+layout: false
 
 name: deep-dive
 
