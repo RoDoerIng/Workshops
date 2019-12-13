@@ -1,4 +1,4 @@
-# Coding Workshops
+# Workshops
 
 This Repo holds a collection of documents and presentations targeting different topics a developer faces in his daily work. The topics mainly focus on developing **C#** applications.
 
@@ -12,7 +12,7 @@ Each topic lives in a dedicated directory. This *readme* only gives an overview 
 
 ## Asynchronous Programming
 
-[SlideShow](./AsynchronousProgramming/asynchronous_programming.html)
+[**SlideShow**](./AsynchronousProgramming/asynchronous_programming.html)
 
 ### Introduction
 
