@@ -5,11 +5,16 @@ This Repo holds a collection of documents and presentations targeting different 
 Each topic lives in a dedicated directory. This *readme* only gives an overview about the major points of each topic, but does not contain detailed information.
 
 1. [Asynchronous Programming](#asynchronous-programming)
-   1. [Basics](#basics)
-   2. [Advanced Stuff](#advanced-stuff)
-   3. [Conclusion](#conclusion)
+   1. [Introduction](#introduction)
+   2. [Basics](#basics)
+   3. [Advanced Stuff](#advanced-stuff)
+   4. [Conclusion](#conclusion)
 
 ## Asynchronous Programming
+
+### Introduction
+
+- What is asynchronous programming?
 
 ### Basics
 
@@ -28,7 +33,7 @@ Each topic lives in a dedicated directory. This *readme* only gives an overview 
   
 ### Conclusion
 
-- What is asynchronous programming?
+- Best practices
 - When do we need asynchronous programming?
 - When not to use asynchronous programming?
 - Common mistakes
