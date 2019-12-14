@@ -12,8 +12,8 @@ namespace SyncVersusAsync
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            // runningAFiveSecondLastingTask(); //synchronous
-            runningAFiveSecondLastingTaskAsync(); //asynchronous
+            runningAFiveSecondLastingTask(); //synchronous
+            // runningAFiveSecondLastingTaskAsync(); //asynchronous
 
             stopWatch.Stop();
             Console.WriteLine($"Execution took {stopWatch.ElapsedMilliseconds} ms");
