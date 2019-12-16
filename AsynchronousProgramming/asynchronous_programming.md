@@ -46,7 +46,7 @@ public static void Main(string[] args)
 produces the output:
 
 ```sh
-Execution took 5013 ms
+Execution took 5003 ms
 ```
 
 ---
