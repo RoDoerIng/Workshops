@@ -14,8 +14,6 @@ Next to the slideshows, each topic's directory also contains the referenced sour
    3. [Running the Slideshows locally on Windows](#running-the-slideshows-locally-on-windows)
       1. [With a Batch script](#with-a-batch-script)
       2. [Without a Batch script](#without-a-batch-script)
-         1. [Google Chrome](#google-chrome)
-         2. [Microsoft Edge](#microsoft-edge)
 2. [Asynchronous Programming](#asynchronous-programming)
    1. [Introduction](#introduction)
    2. [Basics](#basics)
