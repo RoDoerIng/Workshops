@@ -77,6 +77,9 @@ Opening the `index.html` in Microsoft Edge works out of the box.
 - Progress notification
 - `ConfigureAwait()`
 - `Task.Yield()`
+- `BackgroundWorker`
+- `Thread.Start()` vs. `Task.Run()`
+- Debugging multitasking applications
   
 ### Conclusion
 
