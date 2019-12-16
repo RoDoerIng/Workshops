@@ -13,12 +13,12 @@ class: center, middle
 
 ---
 
-name: introduction
 layout: true
 
 # Introduction
 
 ---
+name: introduction
 
 ## Synchronous programming
 
@@ -26,6 +26,7 @@ layout: true
 - the next statement starts executing after the preceding is finished
 
 --
+count: false
 
 The following code:
 
@@ -55,6 +56,7 @@ Execution took 5013 ms
 - if a statement is executed asynchronously, the next statement can start immediately without waiting for it to finish
 
 --
+count: false
 
 The following code:
 
@@ -77,17 +79,17 @@ produces the output:
 Execution took 13 ms
 ```
 
+
 ---
 layout: false
-
-name: basics
 layout: true
 
 # Basics
 
 ---
+name: basics
 
-## `async/await`
+### `async/await`
 
 - `async`
 - `await`
@@ -122,5 +124,3 @@ name: conclusion
 - When do we need asynchronous programming?
 - When not to use asynchronous programming?
 - Common mistakes
-
----
