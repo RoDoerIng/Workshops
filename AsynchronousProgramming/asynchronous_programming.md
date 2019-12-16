@@ -79,7 +79,6 @@ produces the output:
 Execution took 13 ms
 ```
 
-
 ---
 layout: false
 layout: true
