@@ -80,6 +80,7 @@ Opening the `index.html` in Microsoft Edge works out of the box.
 - `BackgroundWorker`
 - `Thread.Start()` vs. `Task.Run()`
 - Debugging multitasking applications
+- ExceptionHandling (`Task.WhenAll`) [Task.WhenAll Aggregate Exception](https://stackoverflow.com/questions/12007781/why-doesnt-await-on-task-whenall-throw-an-aggregateexception)
   
 ### Conclusion
 
